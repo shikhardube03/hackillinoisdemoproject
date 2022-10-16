@@ -1,0 +1,14 @@
+import * as React from 'react';
+import Button from '@mui/material/Button';
+
+function EventDisplay(eventName: string, eventDescrip: stirng, eventType: string, time: string) {
+    return(
+        <Grid item xs={14} sm={14} md={6} x1={3}>
+            <Card sx={{width: 400, height:225, marginTop:5, marginLeft:"auto", marginRight:"auto", dispaly:"grid"}} >
+                <CardContent>
+                    //
+                </CardContent>
+        </Grid>
+    )
+}
+

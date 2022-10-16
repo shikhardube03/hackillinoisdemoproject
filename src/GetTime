@@ -1,0 +1,8 @@
+export default function GetTime(startTime: number, endTime: number): string {
+    let start_Time: Date = new Date(0);
+    start_Time.setUTCSeconds(startTime);
+    let end_Time: Date = new Date(0);
+    end_Time.setUTCSeconds(endTime);
+    return (start_Time.toLocaleDateString() + " from " + start_Time.toLocaleDateString() + " to " + end_Time.toLocaleDateString());
+}
+
